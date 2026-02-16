@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+. $(dirname $0)/gyi
+
+
+install              \
+%aliases.zsh         \
+%bindkey.zsh         \
+%bracketed_mode.zsh  \
+%%colors.zsh         \
+%completion.zsh      \
+%%fpath.zsh          \
+%history.zsh         \
+%misc.zsh            \
+%prompt.zsh          \
+%%umask.zsh          \
+%%zed.zsh            \
+                              /etc/zshrc.d
