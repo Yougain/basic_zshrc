@@ -1,3 +1,4 @@
 
-autoload colors
-colors
+
+require colors
+

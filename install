@@ -2,6 +2,8 @@
 
 . $(dirname $0)/gyi
 
+depends yk_support_for_sh
+
 
 install                  \
     %aliases.zsh         \
@@ -16,3 +18,4 @@ install                  \
     %%umask.zsh          \
     %%zed.zsh            \
                               /etc/zshrc.d
+

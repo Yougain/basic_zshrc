@@ -1,4 +1,2 @@
-## zsh editor
-#
-autoload zed
 
+require zed
